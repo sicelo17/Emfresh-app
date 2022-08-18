@@ -19,7 +19,7 @@ const PRODUCTS = [
     id: 3,
     name: "Tomatoes 10kg",
     price: 12,
-    image: require("../assets/product_images/tomatoes.jpg"),
+    image: require("../assets/product_images/tomatoes.jpeg"),
     description:
       "Fresh farm produce delivered to your doorstep within 24 hours. We are committed to providing you with the freshest and best quality produce.",
   },
