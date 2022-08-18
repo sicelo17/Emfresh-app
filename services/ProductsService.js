@@ -9,19 +9,19 @@ const PRODUCTS = [
   },
   {
     id: 2,
-    name: "PNY GeForce GTX 1060 6GB",
-    price: 79,
-    image: require("../assets/product_images/graphics.jpeg"),
+    name: "Lettuce 1kg",
+    price: 3,
+    image: require("../assets/product_images/lettuce.jpeg"),
     description:
-      "6.7-inch Super Retina XDR display with ProMotion for a faster, more responsive feel Cinematic mode adds shallow depth of field and shifts focus automatically in your videos",
+      "Fresh farm produce delivered to your doorstep within 24 hours. We are committed to providing you with the freshest and best quality produce.",
   },
   {
     id: 3,
-    name: "Acer Predator Triton",
-    price: 979,
-    image: require("../assets/product_images/laptop.jpg"),
+    name: "Tomatoes 10kg",
+    price: 12,
+    image: require("../assets/product_images/tomatoes.jpg"),
     description:
-      "Processor: Intel Core i9 11900H RAM: 32 GB (16GB+16GB) Storage: 1024GB PCIe NVMe SSD",
+      "Fresh farm produce delivered to your doorstep within 24 hours. We are committed to providing you with the freshest and best quality produce.",
   },
 ];
 
