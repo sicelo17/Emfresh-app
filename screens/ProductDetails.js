@@ -44,8 +44,7 @@ const styles = StyleSheet.create({
     },
     image: {
       width: '100%',
-      height: '40vh',
-      resizeMode: 'contain'
+      aspectRatio: 1
     },
     infoContainer: {
       padding: 16
