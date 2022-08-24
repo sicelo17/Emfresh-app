@@ -17,7 +17,7 @@ function App(){
         <Stack.Navigator>
           <Stack.Screen name="Products" component={ProductsList} options={({navigation}) => ({title: 'Products', headerRight: () => <CartIcon navigation={navigation} />})} />
           <Stack.Screen name="ProductDetails" component={ProductDetails} options={({navigation}) => ({title: 'Products', headerRight: () => <CartIcon navigation={navigation} />})} />
-          <Stack.Screen name="Cart" component={Cart} options={({navigation}) => ({title: 'Products', headerRight: () => <CartIcon navigation={navigation} />})} />
+          <Stack.Screen name="Cart" component={Cart} options={({navigation}) => ({title: 'Cart', headerRight: () => <CartIcon navigation={navigation} />})} />
         </Stack.Navigator>
       </NavigationContainer>
     </CartProvider>
